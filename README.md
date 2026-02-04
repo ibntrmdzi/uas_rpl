@@ -6,4 +6,4 @@ NIM: 312410534
 
 Mata Kuliah: Rekayasa Perangkat Lunak
 
-Dosen: Karina imelda, M.Kom.
+Dosen Pengampu: Karina Imelda, M.Kom.
