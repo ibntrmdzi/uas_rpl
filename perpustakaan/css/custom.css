@@ -1,0 +1,128 @@
+/* ===== SIDEBAR PANEL ===== */
+.sidebar {
+    min-height: 100vh;
+    background: #1f2933;
+    padding: 15px;
+}
+
+.sidebar .brand {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #374151;
+    margin-bottom: 15px;
+}
+
+/* ===== MENU BOX ===== */
+.sidebar .menu {
+    background: #111827;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar .menu a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    color: #e5e7eb;
+    text-decoration: none;
+    border-bottom: 1px solid #1f2933;
+    transition: all 0.2s ease;
+}
+
+.sidebar .menu a:last-child {
+    border-bottom: none;
+}
+
+.sidebar .menu a:hover {
+    background: #1e40af;
+    color: #fff;
+}
+
+/* ===== MENU ACTIVE ===== */
+.sidebar .menu a.active {
+    background: #1e40af;
+    border-left: 4px solid #3b82f6;
+    color: #fff;
+}
+
+.sidebar .menu a.logout {
+    color: #f87171;
+}
+
+.sidebar .menu a.logout:hover {
+    background: #7f1d1d;
+}
+
+.content {
+    border-left: 1px solid #e5e7eb;
+    padding-left: 30px;
+}
+
+body {
+    background: #f4f6f8;
+}
+
+/* SIDEBAR */
+.sidebar {
+    min-height: 100vh;
+    background-color: #0f172a !important; /* PAKSA HITAM */
+    padding: 15px;
+}
+
+.brand {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #374151;
+    margin-bottom: 15px;
+}
+
+/* MENU PANEL */
+.menu {
+    background: #111827;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    padding: 14px 16px;
+    color: #e5e7eb;
+    text-decoration: none;
+    border-bottom: 1px solid #1f2933;
+}
+
+.menu a:last-child {
+    border-bottom: none;
+}
+
+.menu a:hover {
+    background: #1e40af;
+    color: #fff;
+}
+
+.menu a.active {
+    background: #1e40af;
+    border-left: 4px solid #3b82f6;
+    color: #fff;
+}
+
+.menu a.logout {
+    color: #f87171;
+}
+
+.menu a.logout:hover {
+    background: #7f1d1d;
+}
+
+/* CONTENT */
+.content {
+    border-left: 1px solid #e5e7eb;
+}
